@@ -1,0 +1,50 @@
+.resume {
+  display: flex;
+}
+.resume-image {
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+.resume-image > img {
+  border-radius: 20px;
+}
+
+.download {
+  width: 100px;
+  font-weight: bold;
+  /* margin-top: 120px; */
+  font-size: 25px;
+}
+/* .download-link:hover {
+  color: red;
+} */
+
+.download-link {
+  position: relative;
+  color: #a467cc;
+}
+.download > a {
+  text-decoration: none;
+  color: #a467cc;
+}
+
+.download-link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #a467cc;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .download-link:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  position: relative;
+
+  width: 140vh;
+  height: 80px;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  margin: 40px 60px 0px 40px;
+  border-radius: 20px;
+}
+
+.footer .icons {
+  margin: 5px 0 10px 0;
+  justify-content: center;
+  display: flex;
+}
+
+.icon {
+  margin-left: 10px;
+}
+.icon:hover {
+  color: #533e85;
+}
+
+.copy {
+  width: 18px;
+  height: 18px;
+}
+
+.footer .footer-copyright {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}

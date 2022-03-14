@@ -1,0 +1,91 @@
+.card-grid {
+  margin: 0px 0px 0px 0px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  gap: 20px;
+}
+.card {
+  padding: 0.8rem 0.8rem 0.5rem;
+
+  background-color: white;
+  border: 1px solid #777;
+  border-radius: 0.25rem;
+  height: 350px;
+  overflow: hidden;
+}
+.card.card-shadow {
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.img:hover {
+  transform: scale(1.05);
+  transition: 0.5s transform ease-in-out;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: -10px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+.card-image {
+  overflow: hidden;
+}
+.card-image > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: contain;
+  /* // object-position: center; */
+}
+
+.card-footer {
+  margin-top: 0rem;
+  background-color: white;
+}
+
+.card-button {
+  background-color: rgb(115, 78, 179);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border-radius: 2.5em;
+  cursor: pointer;
+}
+.card-button > a {
+  text-decoration: none;
+  color: white;
+}
+.card-button:hover,
+.card-button:focus {
+  background-color: rgb(147, 127, 230);
+}
+
+.card-git {
+  background: none;
+  color: rgb(158, 132, 201);
+  border: none;
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border-radius: 2.5em;
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+.card-git > a {
+  text-decoration: none;
+  color: rgb(158, 132, 201);
+}
+.card-git:hover,
+.card-git:focus {
+  background-color: rgb(208, 196, 252);
+}

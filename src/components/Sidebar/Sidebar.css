@@ -1,0 +1,52 @@
+.sidebar {
+  width: 300px;
+  min-width: 300px;
+  background: var(--primary-color);
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+}
+.sidebar-content {
+  position: fixed;
+  width: inherit;
+}
+.sidebar .user {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 40px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.contact-header {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  text-align: center;
+}
+.contact-line {
+  margin-bottom: 30px;
+}
+.contact-iconm {
+  margin-bottom: 5px;
+}
+.contact-icon {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin: auto;
+}
+.contact-text {
+  word-wrap: break-word;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* avatar in sidebar */
+.sidebar .user .avatar {
+  margin-bottom: 10px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #fff;
+}
