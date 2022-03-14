@@ -19,10 +19,10 @@ function App() {
           <div className="container">
             <Navbar />
             <Routes>
-              <Route path="portfolio/about" element={<About />} />
-              <Route path="portfolio/" element={<Home />} />
-              <Route path="portfolio/projects" element={<Projects />} />
-              <Route path="portfolio/resume" element={<Resume />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/resume" element={<Resume />} />
             </Routes>
             <Footer className="footer" />
           </div>
