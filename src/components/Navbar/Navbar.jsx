@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link to="/resume">Resume </Link>
           </li>
           <li className="link-item">
-            <Link to="portolio/about">About Me</Link>
+            <Link to="/about">About Me</Link>
           </li>
         </ul>
       </nav>
