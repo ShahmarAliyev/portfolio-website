@@ -11,6 +11,11 @@
   margin-right: auto;
   font-size: 1.5em;
 }
+.nav-title :hover {
+  color: #411a9c;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 .navbar .link-item {
   list-style: none;
@@ -21,9 +26,11 @@
 .navbar a {
   text-decoration: none;
   color: #555;
-  transition: all 0.3s ease 0s;
+  transition: all 0.2s ease 0s;
 }
 
-.navbar a:hover {
-  color: #533e85;
+.links-container .link-item a:hover {
+  color: #412680;
+  font-size: 20px;
+  font-weight: bold;
 }

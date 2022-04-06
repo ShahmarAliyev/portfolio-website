@@ -1,5 +1,5 @@
 .card-grid {
-  margin: 0px 0px 0px 0px;
+  margin: 72px 0px 0px 0px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   display: grid;
   gap: 20px;
@@ -10,7 +10,7 @@
   background-color: white;
   border: 1px solid #777;
   border-radius: 0.25rem;
-  height: 350px;
+  height: 300px;
   overflow: hidden;
 }
 .card.card-shadow {
@@ -54,7 +54,7 @@
 }
 
 .card-button {
-  background-color: rgb(115, 78, 179);
+  background-color: #5329b6;
   color: white;
   border: none;
   font-size: 1rem;
@@ -68,7 +68,7 @@
 }
 .card-button:hover,
 .card-button:focus {
-  background-color: rgb(147, 127, 230);
+  background-color: rgb(130, 105, 229);
 }
 
 .card-git {
@@ -83,9 +83,11 @@
 }
 .card-git > a {
   text-decoration: none;
-  color: rgb(158, 132, 201);
+  color: rgb(126, 100, 168);
 }
 .card-git:hover,
 .card-git:focus {
-  background-color: rgb(208, 196, 252);
+  /* background-color: rgb(179, 164, 231); */
+  transition: all 0.2s ease 0s;
+  font-weight: 500;
 }

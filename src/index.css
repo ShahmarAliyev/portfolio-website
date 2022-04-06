@@ -3,7 +3,7 @@
 :root {
   --heading-color: #444;
   --text-color: #999;
-  --primary-color: #7e6aac;
+  --primary-color: #5329b6;
   --highlight-color: #d13267;
   --bg-color: #f4f4f4;
 }
@@ -17,4 +17,8 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

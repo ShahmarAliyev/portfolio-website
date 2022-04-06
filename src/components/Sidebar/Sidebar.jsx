@@ -40,7 +40,7 @@ function Sidebar() {
               <img src={github} alt=" github" className="contact-icon" />
             </div>
             <div className="contact-text">
-              <p>https://github.com/ShahmarAliyev</p>
+              <p>github.com/ShahmarAliyev</p>
             </div>
           </div>
           <div className="contact-line">
@@ -48,7 +48,7 @@ function Sidebar() {
               <img src={linkedin} alt="linkedin" className="contact-icon" />
             </div>
             <div className="contact-text">
-              <p>https://www.linkedin.com/in/saliyev2019/</p>
+              <p>linkedin.com/in/saliyev2019/</p>
             </div>
           </div>
         </div>

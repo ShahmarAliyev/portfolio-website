@@ -7,7 +7,7 @@ function Resume() {
       <div className="download">
         Download
         <a
-          href="https://drive.google.com/file/d/1nRSoA1rhgBW9snV-d7lX48I1IXz3X_4h/view?usp=sharing"
+          href="https://drive.google.com/file/d/1DTDpgyQhrSv6F3pCipmO_48jsAwyD42v/view?usp=sharing"
           className="download-link"
         >
           Here

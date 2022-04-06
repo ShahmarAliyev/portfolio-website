@@ -7,7 +7,7 @@ export default function Navbar() {
       <h1 className="nav-title">
         <Link to="/"> Home</Link>
       </h1>
-      <nav>
+      <nav className="links-container">
         <ul>
           <li className="link-item">
             <Link to="/projects"> Projects</Link>
