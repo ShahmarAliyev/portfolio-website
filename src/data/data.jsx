@@ -19,7 +19,7 @@ const projects = [
     name: "Online Shopping",
     description: "Finance Tracker",
     imgLink: project4,
-    github: "https://github.com/ShahmarAliyev/Rocket-Clothing",
+    github: "https://github.com/ShahmarAliyev/e-commerce",
     url: "https://voluble-mousse-1aee47.netlify.app/",
   },
 
