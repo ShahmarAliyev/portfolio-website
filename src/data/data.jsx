@@ -11,7 +11,7 @@ const projects = [
     name: "Project Management",
     description: " Online Shopping website",
     imgLink: project1,
-    github: "https://github.com/ShahmarAliyev/project-management",
+    github: "https://github.com/ShahmarAliyev/e-commerce",
     url: "https://project-management-3c034.web.app/",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description: "Finance Tracker",
     imgLink: project4,
     github: "https://github.com/ShahmarAliyev/Rocket-Clothing",
-    url: "https://on-line-clothing.herokuapp.com/",
+    url: "https://voluble-mousse-1aee47.netlify.app/",
   },
 
   {
