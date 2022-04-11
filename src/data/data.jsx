@@ -28,38 +28,5 @@ const projects = [
     github: "https://github.com/ShahmarAliyev/mern-stack-ecommerce",
     url: "https://rad-dango-584ff5.netlify.app/",
   },
-  // {
-  //   id: 2,
-  //   name: "Finance Tracker",
-  //   description: "Finance Tracker",
-  //   imgLink: project2,
-  //   github: "https://github.com/ShahmarAliyev/my-finance",
-  //   url: "https://shahmaraliyev.github.io/my-finance/#/login",
-  // },
-
-  // {
-  //   id: 3,
-  //   name: "Recipe Directory",
-  //   description: "Finance Tracker",
-  //   imgLink: project3,
-  //   github: "https://github.com/ShahmarAliyev/Reciper-Recipe-Directory",
-  //   url: "https://shahmaraliyev.github.io/Reciper-Recipe-Directory/",
-  // },
-  // {
-  //   id: 4,
-  //   name: "Take Note",
-  //   description: "Finance Tracker",
-  //   imgLink: project5,
-  //   github: "https://github.com/ShahmarAliyev/TodoApp",
-  //   url: "https://shahmars-todo.herokuapp.com/",
-  // },
-  // {
-  //   id: 5,
-  //   name: "Memory Game",
-  //   description: "Finance Tracker",
-  //   imgLink: project6,
-  //   github: "https://github.com/ShahmarAliyev/memorygame",
-  //   url: "https://shahmaraliyev.github.io/memorygame/",
-  // },
 ];
 export default projects;
