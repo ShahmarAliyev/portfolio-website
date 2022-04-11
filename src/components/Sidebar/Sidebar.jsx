@@ -2,10 +2,6 @@ import "./Sidebar.css";
 
 import profPic from "../../assets/profile-pic.jpg";
 import Avatar from "../Avatar/Avatar";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
-import email from "../../assets/email.png";
-import phone from "../../assets/phone.png";
 import { Email, GitHub, Phone } from "@mui/icons-material";
 import { LinkedIn } from "@material-ui/icons";
 function Sidebar() {
