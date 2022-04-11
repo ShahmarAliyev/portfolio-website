@@ -1,6 +1,6 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-// import project3 from "../assets/project3.png";
+import project3 from "../assets/Screenshot_1.png";
 import project4 from "../assets/project4.png";
 // import project5 from "../assets/project5.png";
 // import project6 from "../assets/project6.png";
@@ -25,12 +25,20 @@ const projects = [
 
   {
     id: 2,
-    name: "Finance Tracker",
-    description: "Finance Tracker",
-    imgLink: project2,
-    github: "https://github.com/ShahmarAliyev/my-finance",
-    url: "https://shahmaraliyev.github.io/my-finance/#/login",
+    name: "E-Commerce",
+    description: " Online Shopping website",
+    imgLink: project3,
+    github: "https://github.com/ShahmarAliyev/mern-stack-ecommerce",
+    url: "https://rad-dango-584ff5.netlify.app/",
   },
+  // {
+  //   id: 2,
+  //   name: "Finance Tracker",
+  //   description: "Finance Tracker",
+  //   imgLink: project2,
+  //   github: "https://github.com/ShahmarAliyev/my-finance",
+  //   url: "https://shahmaraliyev.github.io/my-finance/#/login",
+  // },
 
   // {
   //   id: 3,

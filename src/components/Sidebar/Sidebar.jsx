@@ -6,6 +6,8 @@ import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
 import phone from "../../assets/phone.png";
+import { Email, GitHub, Phone } from "@mui/icons-material";
+import { LinkedIn } from "@material-ui/icons";
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -20,7 +22,7 @@ function Sidebar() {
         <div className="contact-card">
           <div className="contact-line">
             <div className="contact-iconm">
-              <img src={phone} alt="phone" className="contact-icon" />
+              <Phone className="contact-icon" />
             </div>
             <div className="contact-text">
               <p>+12242564225</p>
@@ -28,16 +30,15 @@ function Sidebar() {
           </div>
           <div className="contact-line">
             <div className="contact-iconm">
-              <img src={email} alt="email" className="contact-icon" />
+              <Email className="contact-icon" />
             </div>
             <div className="contact-text">
               <p>shahmarusa@gmail.com</p>
             </div>
           </div>
-
           <div className="contact-line">
             <div className="contact-iconm">
-              <img src={github} alt=" github" className="contact-icon" />
+              <GitHub className="contact-icon" />
             </div>
             <div className="contact-text">
               <p>github.com/ShahmarAliyev</p>
@@ -45,7 +46,7 @@ function Sidebar() {
           </div>
           <div className="contact-line">
             <div className="contact-iconm">
-              <img src={linkedin} alt="linkedin" className="contact-icon" />
+              <LinkedIn className="contact-icon" />
             </div>
             <div className="contact-text">
               <p>linkedin.com/in/saliyev2019/</p>
