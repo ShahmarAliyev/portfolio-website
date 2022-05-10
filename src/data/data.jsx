@@ -6,9 +6,9 @@ const projects = [
   {
     id: 0,
     name: "Project Management",
-    description: " Online Shopping website",
+    description: "Project Management website",
     imgLink: project1,
-    github: "https://github.com/ShahmarAliyev/e-commerce",
+    github: "https://github.com/ShahmarAliyev/project-management",
     url: "https://project-management-3c034.web.app/",
   },
   {
@@ -25,8 +25,8 @@ const projects = [
     name: "E-Commerce",
     description: " Online Shopping website",
     imgLink: project3,
-    github: "https://github.com/ShahmarAliyev/mern-stack-ecommerce",
-    url: "https://rad-dango-584ff5.netlify.app/",
+    github: "https://github.com/ShahmarAliyev/MERN-ECommerce",
+    url: "https://boardmern.herokuapp.com/",
   },
 ];
 export default projects;
